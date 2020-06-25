@@ -1,3 +1,5 @@
 node {
-    sh 'mvn clean install -DskipTests'
+    timestamps {
+	sh 'mvn clean install -DskipTests'
+    }
 }
